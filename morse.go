@@ -41,9 +41,9 @@ type Morse struct {
 	Dict map[string]string
 }
 
-// func NewMorse(dict map[string]string) Morse {
-//   return &Morse{Dict:}
-// }
+func NewMorse() *Morse {
+	return &Morse{Dict: MOEN}
+}
 
 // 解密
 func (self Morse) Decode(en string) string {
