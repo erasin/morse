@@ -12,6 +12,7 @@
 // fmt.Printf("word: \n%s\n", de)
 // fmt.Println(m.Encode(de))
 // ...
+//
 package morse
 
 import (
